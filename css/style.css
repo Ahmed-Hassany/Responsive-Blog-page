@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.clearfix:after {
+    display: block;
+    content: ".";
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    line-height: 0;
+}
+
+
+html{
+    font-family: sans-serif;
+}
+
+body{
+    background: #eee;
+}
+
+.main-title{
+    text-align: center;
+    margin: 2rem auto;
+    font-size: 1.5rem;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.main-title *{
+    margin-top: 0.8rem;
+}
+
+.main-title span{
+    background-color: black;
+    color: white;
+    padding: 0 0.8rem;
+}
+.container{
+    display: flex;
+    
+}
+
+.side-bar{
+    width:35%;
+    padding: 1.5rem;
+}
+.posts{
+    width:65%;
+    padding: 1.5rem;
+}
+
+.post{
+    width: 100%;
+    margin-bottom: 1.5rem;
+    background:white;
+}
+
+.post-content{
+    padding: 0.8rem;
+}
+
+.post-content *{
+    margin-top: 0.7rem;
+}
+
+.post-content h1+p{
+    font-weight: 400;
+    font-family:monospace;
+    margin-bottom: 1.5rem;
+}
+
+
+.image-cropper{
+    
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.image-cropper img{
+    width: 100%;
+    height: auto;
+}
+
+.auther{
+    
+    background:white;
+    
+}
+
+.auth-content *{
+    padding: 0.8rem;
+}
+
+
+.popular-title{
+    background-color: #ccc;
+    padding: 0.8rem;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: lighter;
+}
+
+.popular-posts{
+    margin-top: 1rem;
+}
+.popular-post{
+    display: flex;
+    padding: 0.5rem 0.8rem 0 0.5rem;
+    border-bottom: 1px solid #aaa;
+}
+
+.popular-post h5{
+    font-size: 1rem;
+    width: 50%;
+}
+.popular-post .image-cropper{
+    width: 80px;
+    height: 80px;
+    margin-right: 0.5rem;
+}
+
+.box-shadow{
+    box-shadow: 0px 0px 10px #bbb;
+}
+
+
+
+
+/*    ///////////    resume page  ///////////       */
+
+.resume{
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+}
+
+.resume-side{
+    width:30%;
+    position: relative;
+}
+
+.resume-main{
+    width: 69%;
+    height: 800px;
+    margin-left: 1%;
+}
+
+.personal-info{
+    padding: 1rem;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.personal-info i{
+    color: #009688;
+    padding-right: 0.8rem;
+}
+
+.personal-info p{
+    padding: 0.4rem;
+}
+
+.brief{
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #aaa;
+}
+
+.resume-side .image-cropper{
+    position: relative;
+    
+}
+.resume-side h1{
+    position: relative;
+    top: -40px;
+    left: 20px;
+    background: #009688;
+    display: inline-block;
+    padding: 0 0.5rem;
+    color: white;
+    
+}
+
+.bar{
+    height: 15px;
+    width: 100%;
+    background: #aaa;
+    border-radius: 40px;
+    overflow: hidden;
+}
+.bar-progress{
+    background: #009688;
+    height: 100%;
+    border-radius: 40px;
+}
+
+.personal-info h4{
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+}
+
+
+.percent-80{
+    width: 80%;
+}
+.percent-95{
+    width: 95%;
+}
+.percent-75{
+    width: 75%;
+}
